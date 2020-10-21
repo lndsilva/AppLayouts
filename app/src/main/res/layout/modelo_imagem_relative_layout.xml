@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_below="@+id/imgArqueiro"
+        android:id="@+id/txtArqueiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arqueiro"
+        android:textColor="#673AB7"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/txtArqueiro"
+        android:layout_below="@+id/imgViuva"
+        android:id="@+id/txtViuva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viuva Negra"
+        android:textColor="#872000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_below="@id/imgCapitao"
+        android:id="@+id/txtCapitao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitão América"
+        android:textColor="#1F72B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_below="@+id/imgHFerro"
+        android:id="@+id/txtHFerro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homem de Ferro"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgViuva"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/imgArqueiro"
+        android:src="@drawable/viuva" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imgCapitao"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imgHFerro"
+        android:src="@drawable/capitao" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imgHFerro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgArqueiro"
+        android:src="@drawable/hferro" />
+
+    <ImageView
+        android:id="@+id/imgArqueiro"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/arqueiro" />
+
+</RelativeLayout>
